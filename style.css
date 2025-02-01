@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* pega todos os elementos do projeto */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black;
+    color: #F6F6F6;
+}
+
+.titulo-destaque {
+    color: #22d4fd;
+}
+
+img {
+    border-radius: 100px;
+}
+
+.apresentacao {
+    margin: 6% 11%;
+
+    /*define qual vai ser a forma do display*/
+    display: flex;
+
+    /*alinha os conteúdos*/
+    align-items: center;
+
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 36px;
+    font-family: "Krona One", serif;
+}
+
+.apresentacao__conteudo__texto {
+    font-size: 24px;
+    font-family: "Montserrat", serif;
+    border: 40px;
+}
+
+.apresentacao__links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao__links__link {
+    background-color: #22d4fd;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    /*o padding (caso não especificado), vai acrescentar valor para os dois eixos, portanto necessário especificar os valores verticais e horizontais*/
+    /*o primeiro valor serve para alterar o valor vertical, e o segundo para alterar o valor horizontal*/
+    padding: 21.5px 0px;
+    /*retira a linha que sublinha os links*/
+    text-decoration: none;
+    color: black;
+    font-family: "Montserrat", serif;
+    font-weight: 600;
+}

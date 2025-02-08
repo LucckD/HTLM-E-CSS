@@ -49,7 +49,7 @@ img {
 }
 
 .menu__link:hover {
-    font-size: 1.5rem;
+    color: #5297a7;
 }
 
 .apresentacao {
@@ -121,7 +121,7 @@ img {
 
 .apresentacao__links__link:hover {
     background-color: #272727;
-    font-size: 1.5rem;
+    font-size: 26px;
 }
 
 .apresentacao__imagem {
